@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".abdev">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/patrick">
+
+        <TextView
+            android:layout_width="320dp"
+            android:padding="10dp"
+            android:fontFamily="@font/font1"
+            android:gravity="center"
+            android:layout_height="260dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/wood"
+            android:text="Gian Carlo Dumanon         Back end developer
+Miguel Rimando       Front end developer"
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="125dp"
+            android:text="About the Developers"
+            android:textColor="#000"
+            android:fontFamily="@font/font1"
+            android:layout_centerHorizontal="true"
+            android:textSize="36sp"
+            android:background="@drawable/wood"
+            android:layout_marginTop="40dp"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

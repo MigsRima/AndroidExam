@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/bubble"
+        >
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="130dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#A0522D" />
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="300dp"
+            android:layout_height="110dp"
+            android:text="ADD THEM UP"
+            android:textSize="40dp"
+            android:fontFamily="@font/font1"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:background="@drawable/wood"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:id="@+id/startbut"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:layout_below="@id/welcome"
+            android:layout_marginTop="50dp"
+            android:text="start"
+            android:background="@drawable/wood"
+            android:textSize="40dp"
+            android:textColor="#000"
+            android:fontFamily="@font/font1"
+            android:layout_centerHorizontal="true"
+
+            />
+        <Button
+            android:id="@+id/highscorebut"
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:layout_below="@id/startbut"
+            android:text="HighScore"
+            android:textSize="40dp"
+            android:fontFamily="@font/font1"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/wood"
+            android:layout_centerHorizontal="true"
+            />
+        <Button
+            android:id="@+id/abdevbut"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/highscorebut"
+            android:text="About Developer"
+            android:textSize="40dp"
+            android:fontFamily="@font/font1"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/wood"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
